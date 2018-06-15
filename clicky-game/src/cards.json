@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "New Girl",
+        "image": "/images/newgirl.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Boy Meets World",
+        "image": "/images/boymeetsworld.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Full House",
+        "image": "/images/fullhouse.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Family Matters",
+        "image": "/images/familymatters.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Cosby Show",
+        "image": "/images/cosbyshow.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Rosanne",
+        "image": "/images/rosanne.jpg"
+    },
+    {
+        "id": 7,
+        "name": "That 70s Show",
+        "image": "/images/70sshow.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Laverne and Shirley",
+        "image": "/images/lavandshirl.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Scrubs",
+        "image": "/images/scrubs.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Happy Endings",
+        "image": "/images/happyendings.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Seinfeld",
+        "image": "/images/sienfeld.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Friends",
+        "image": "/images/friends.jpeg"
+    }
+]
