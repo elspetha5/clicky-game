@@ -10,5 +10,18 @@
 }
 
 h1 {
-    margin: 100px 0 0;
+    margin: 70px 0 10px;
+    font-size: 350%;
+}
+
+h3 {
+    font-size: 120%;
+    color: rgb(150, 150, 150);
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#win {
+    margin-top: 20px;
 }

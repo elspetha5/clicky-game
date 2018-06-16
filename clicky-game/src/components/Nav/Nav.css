@@ -5,10 +5,11 @@
     left: 0;
     background-color: tomato;
     color: white;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
     font-family: 'Shrikhand', cursive;
     overflow: hidden;
+    box-shadow: 0 3px 10px grey;
 }
 
 #navTitle {
@@ -17,8 +18,16 @@
 }
 
 #guess {
-    margin: 0 20%;
+    margin: 0 15%;
+    font-size: 140%;
 }
 
-#score {
+.score {
+    font-size: 120%;
+}
+
+#scoreLine {
+    margin-left: 10px;
+    border-left: 2px solid white;
+    padding-left: 10px;
 }

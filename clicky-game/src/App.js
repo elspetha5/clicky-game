@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Jumbotron from "./components/Jumbotron";
 import Container from "./components/Container";
 import Card from "./components/Card";
+import Footer from "./components/Footer"
 import cards from "./cards.json";
 
 
@@ -31,6 +32,7 @@ class App extends Component {
             />
           ))}
         </Container>
+        <Footer />
       </div>
     )
   }
