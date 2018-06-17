@@ -1,5 +1,19 @@
 .container {
+    padding-top: 20px;
     width: 70%;
     margin: auto;
     min-height: 540px;
 }
+
+/* #red {
+    animation: flash 1.5s forwards;
+}
+
+@keyframes flash {
+    from {
+        background: tomato;
+    }
+    to {
+        background: white;
+    }
+} */

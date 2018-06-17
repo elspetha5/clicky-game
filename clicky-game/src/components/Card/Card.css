@@ -14,3 +14,16 @@
     width: 200px;
     margin: auto;
 }
+
+#red {
+    animation: flash 1.5s forwards;
+}
+
+@keyframes flash {
+    from {
+        background: tomato;
+    }
+    to {
+        background: white;
+    }
+}

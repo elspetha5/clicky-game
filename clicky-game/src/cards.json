@@ -2,61 +2,73 @@
     {
         "id": 1,
         "name": "New Girl",
-        "image": "/images/newgirl.jpg"
+        "image": "/images/newgirl.jpg",
+        "clicked": false
     },
     {
         "id": 2,
         "name": "Boy Meets World",
-        "image": "/images/boymeetsworld.jpg"
+        "image": "/images/boymeetsworld.jpg",
+        "clicked": false
     },
     {
         "id": 3,
         "name": "Full House",
-        "image": "/images/fullhouse.jpeg"
+        "image": "/images/fullhouse.jpeg",
+        "clicked": false
     },
     {
         "id": 4,
         "name": "Family Matters",
-        "image": "/images/familymatters.jpg"
+        "image": "/images/familymatters.jpg",
+        "clicked": false
     },
     {
         "id": 5,
         "name": "Cosby Show",
-        "image": "/images/cosbyshow.jpg"
+        "image": "/images/cosbyshow.jpg",
+        "clicked": false
     },
     {
         "id": 6,
         "name": "Rosanne",
-        "image": "/images/rosanne.jpg"
+        "image": "/images/rosanne.jpg",
+        "clicked": false
     },
     {
         "id": 7,
         "name": "That 70s Show",
-        "image": "/images/70sshow.jpg"
+        "image": "/images/70sshow.jpg",
+        "clicked": false
     },
     {
         "id": 8,
         "name": "Laverne and Shirley",
-        "image": "/images/lavandshirl.jpg"
+        "image": "/images/lavandshirl.jpg",
+        "clicked": false
     },
     {
         "id": 9,
         "name": "Scrubs",
-        "image": "/images/scrubs.jpg"
+        "image": "/images/scrubs.jpg",
+        "clicked": false
     },
     {
         "id": 10,
         "name": "Happy Endings",
-        "image": "/images/happyendings.jpg"
+        "image": "/images/happyendings.jpg",
+        "clicked": false
     },
     {
         "id": 11,
         "name": "Seinfeld",
-        "image": "/images/sienfeld.jpg"
+        "image": "/images/sienfeld.jpg",
+        "clicked": false
     },
     {
         "id": 12,
         "name": "Friends",
-        "image": "/images/friends.jpeg"
+        "image": "/images/friends.jpeg",
+        "clicked": false
     }
 ]

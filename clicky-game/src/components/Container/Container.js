@@ -2,7 +2,7 @@ import React from "react";
 import "./Container.css";
 
 const Container = props => (
-    <div className="container">{props.children}</div>
+    <div className="container" id={props.background}>{props.children}</div>
 );
 
 export default Container;

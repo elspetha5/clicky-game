@@ -2,10 +2,9 @@
     width: 100%;
     overflow: hidden;
     background-image: url("/images/skulls.png");
-    height: 300px;
-    margin-bottom: 20px;
+    height: 275px;
     text-align: center;
-    color: rgb(99, 99, 99);
+    color: rgb(34,52,128);
     font-family: 'Shrikhand', cursive;
 }
 
