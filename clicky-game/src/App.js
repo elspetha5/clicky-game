@@ -18,6 +18,7 @@ class App extends Component {
 
   handleIncrement = () => {
     this.setState({ count: this.state.count + 1 });
+    this.win();
   };
 
 
@@ -28,11 +29,33 @@ class App extends Component {
   };
 
 
+  win = () => {
+    if (this.state.count === 11) {
+      this.setState({
+        instruction: "You won!! Want to play again?",
+        background: "yellow",
+        count: 0,
+        topScore: 12
+      });
+
+      cards.forEach(card => {
+        card.clicked = false;
+      });
+
+      setTimeout(() => {
+        this.setState({
+          background: "white"
+        })
+      }, 2000);
+    };
+  }
+
+
   shuffleArray = array => {
     for (let i = array.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
-    }
+    };
   };
 
 
@@ -51,8 +74,8 @@ class App extends Component {
           this.topScore();
           this.setState({
             instruction: "Oops! Start over.",
-            count: 0,
-            background: "red"
+            background: "red",
+            count: 0
           });
 
           cards.forEach(card => {
@@ -81,15 +104,13 @@ class App extends Component {
           instruction={this.state.instruction}
         />
         <Jumbotron />
-        <Container
-          /* background={this.state.background} */
-        >
+        <Container>
           {this.state.cards.map(card => (
             <Card
               key={card.id}
               id={card.id}
               name={card.name}
-              image={card.image}
+              image={process.env.PUBLIC_URL + card.image}
               clicked={card.clicked}
               cardClick={this.cardClick}
               background={this.state.background}

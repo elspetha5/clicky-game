@@ -8,6 +8,7 @@
 
 .card:hover {
     box-shadow: 6px 9px 5px grey;
+    transform: scale(1.1);
 }
 
 .image {
@@ -16,12 +17,25 @@
 }
 
 #red {
-    animation: flash 1.5s forwards;
+    animation: flashRed 1.5s forwards;
 }
 
-@keyframes flash {
+#yellow {
+    animation: flashYellow 1.5s forwards;
+}
+
+@keyframes flashRed {
     from {
         background: tomato;
+    }
+    to {
+        background: white;
+    }
+}
+
+@keyframes flashYellow {
+    from {
+        background: goldenrod;
     }
     to {
         background: white;
